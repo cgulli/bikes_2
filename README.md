@@ -4,8 +4,8 @@ This directory will emulate the boris bikes infrastructure for London. It will i
 
 ## How to use ##
 
-To be discovered. 
+To be discovered.
 
 ## Authors ##
-Caitlin
-Lilian
+Caitlin & Lilian - day 1
+Caitlin & Anna - day 2
