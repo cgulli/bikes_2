@@ -13,6 +13,7 @@ describe DockingStation do
     expect(docking_station).to respond_to(:accept).with(1).argument
   end
   it 'stores bikes' do
-    expect(docking_station.accept).to eq 1
+    bike = Bike.new
+    expect(docking_station.accept(bike)).to eq bike
   end
 end
