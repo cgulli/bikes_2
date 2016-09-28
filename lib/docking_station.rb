@@ -2,7 +2,7 @@ class DockingStation
 attr_reader :bike
 
   def release_bike
-    fail "Error" unless @bike
+    fail 'No bike available' unless @bike
     @bike
   end
 

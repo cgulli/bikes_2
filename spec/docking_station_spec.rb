@@ -16,7 +16,10 @@ describe DockingStation do
     bike = Bike.new
     expect(docking_station.accept(bike)).to eq bike
   end
-  it 'should fail'do
-    expect {docking_station.release_bike}.to raise_error("Error")
+end
+describe '#release_bike' do
+  docking_station = DockingStation.new
+  it 'raises an error when no bikes available' do
+    expect {docking_station.release_bike}.to raise_error 'No bike available'
   end
 end
