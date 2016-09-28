@@ -2,7 +2,8 @@ class DockingStation
 attr_reader :bike
 
   def release_bike
-    Bike.new
+    fail "Error" unless @bike
+    @bike
   end
 
   def accept(bike)

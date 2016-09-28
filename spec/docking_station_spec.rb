@@ -16,4 +16,7 @@ describe DockingStation do
     bike = Bike.new
     expect(docking_station.accept(bike)).to eq bike
   end
+  it 'should fail'do
+    expect {docking_station.release_bike}.to raise_error("Error")
+  end
 end
