@@ -7,6 +7,7 @@ attr_reader :bike
   end
 
   def accept(bike)
+    fail 'Station is at capacity' if @bike
     @bike=bike
   end
 

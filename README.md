@@ -9,3 +9,4 @@ To be discovered.
 ## Authors ##
 Caitlin & Lilian - day 1
 Caitlin & Anna - day 2
+Caitlin & Anna L - day 3
